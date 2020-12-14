@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Syne+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chau+Philomene+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');
+
+body {
+    margin: 0px;
+    background-color: #0a0a0a;
+    color: rgb(235, 235, 235);
+}
+
+header {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 10%;
+    background-image: url(../images/Cloth.jpg);
+}
+
+header img {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 50%;
+    height: 100%;
+}
+
+nav {
+    background-color: #22211f;
+    border-bottom: 2px solid #eb0a7a;
+}
+
+nav ul {
+    padding: 10px;
+    text-align: center;
+}
+
+div {
+    background-image: url(../images/spacemna.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    border-bottom: 7px solid#eb0a7a;
+
+}
+
+h2 {
+    text-align: left;
+    color: #5efa8d;
+    width: 90%;
+    margin: 0px;
+    font-size: 4em;
+    font-family: 'Chau Philomene One', sans-serif;
+    padding-bottom: 450px;
+}
+
+h3 {
+    margin: 10%;
+    color: #ffffff;
+    font-size: 100%;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+}
+
+#wiki {
+    position: relative;
+    top: 8px;
+    background-color: #eb0a7a;
+    padding: 10px;
+    margin: 10px 6%;
+    font-size: .7em;
+    border-radius: 20px;
+}
+
+p {
+    margin: 10%;
+    padding: 20px;
+    font-size: 1.2em;
+    font-family: 'Chivo', sans-serif;
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+    background-color: rgba(0,0,0,0.6);
+}
+
+aside {
+    border-top: 5px solid #eb0a7a;
+    background-image: url(../images/rocket.jpg);
+    background-size: cover;
+    background-position: right;
+    background-attachment: fixed;
+}
+
+aside img {
+    height: auto;
+    position: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 75%;
+}
+
+footer {
+    margin: 0px;
+    width: 100%;
+    text-align: center;
+    border-top: 2px solid #eb0a7a; 
+    background-color: rgb(37, 35, 35);
+}
+
+a {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: .9em;
+    text-decoration: none;
+}
+
+a:link {
+    color: #eb0a7a;
+}
+a:visited {
+    color:#eb0a7a;
+}
+a:active {
+    color: #eb0a7a;
+}
+
+ul {
+    padding: 20px;
+    margin: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    list-style-type: none;   
+}
+ 
+li {
+    margin: 3px;
+    display: inline;
+}
+
+.mobile {
+    display: none;
+}
+
+@media all and (min-width: 768px) {
+
+    .mobile {
+        display: inline;
+    }
+
+    header img {
+        width: 20%;
+    }
+
+    h2 {
+        font-size: 6em;
+    }
+
+    h3 {
+        font-size: 2em;
+        margin: 70px 10%;
+    }
+
+    p {
+        margin: 40px 10% 0px 10%; 
+        padding: 50px;
+        font-size: 1.7em;
+    }
+
+    aside img {
+        width: 40%;
+    }
+    
+    a {
+        font-size: 1.7em;
+        margin: 0px 9px 0px 9px;
+        padding: 10px;
+    }
+
+    a:hover {
+        background-color: rgba(211, 55, 133, 0.3) ;
+    }
+
+    #wiki {
+        font-size: 1.5em;
+    }
+
+}

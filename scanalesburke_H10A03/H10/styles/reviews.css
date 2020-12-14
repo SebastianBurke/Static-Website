@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Syne+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chau+Philomene+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Harmattan&display=swap');
+
+body {
+    margin: 0px;
+    background-color: #0a0a0a;
+    background-image: url(../images/codeman.jpg);
+    background-size: cover ;
+    color: rgb(235, 235, 235);
+}
+
+header {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 10%;
+    background-image: url(../images/Cloth.jpg);
+}
+
+header img {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 50%;
+    height: 100%;
+}
+
+nav {
+    background-color: #22211f;
+    border-bottom: 2px solid #eb0a7a;
+}
+
+nav ul {
+    padding: 10px;
+    text-align: center;
+}
+
+
+p{
+    font-size: 100%;
+    margin-top: 0px;
+    position: relative;
+    left: 20px;
+}
+form {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button {
+    float: right;
+    width: 100px;
+}
+
+fieldset {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;
+    background-color: rgba(3, 5, 3, 0.5);
+}
+
+footer {
+    margin: 0px;
+    width: 100%;
+    text-align: center;
+    border-top: 2px solid #eb0a7a; 
+    background-color: rgb(37, 35, 35);
+}
+
+a {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: .9em;
+    text-decoration: none;
+}
+
+a:link {
+    color: #eb0a7a;
+}
+a:visited {
+    color:#eb0a7a;
+}
+a:active {
+    color: #eb0a7a;
+}
+
+ul {
+    padding: 20px;
+    margin: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    list-style-type: none;   
+}
+ 
+li {
+    margin: 3px;
+    display: inline;
+}
+
+
+
+#gamer1 {
+    width: 300px;
+    height: auto;
+    float: left;
+    border: 3px solid rgb(136, 131, 131);
+    box-shadow: 5px 5px #f5eaea
+}
+
+
+.mobile {
+    display: none;
+}
+
+@media all and (min-width: 768px) {
+
+    .mobile {
+        display: inline;
+    }
+
+    header img {
+        width: 20%;
+    }
+
+    h2 {
+        font-size: 5em;
+        margin-left: 30px;
+    }
+    
+    
+    
+h2 {
+    text-align: left;
+    color: #5efa8d;
+    margin: 0px;
+    margin-left: 20px;
+    font-size: 7em;
+    font-family: 'Chau Philomene One', sans-serif;
+}
+
+
+
+h3 {
+    font-family: 'Teko', sans-serif;
+    font-size: 2em;
+    width: 75%;
+    margin: auto;
+}
+
+div {
+    background-color: rgba(0,0,0,0.6);
+    width: 50%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+    font-family: 'Harmattan', sans-serif;
+    font-size: 2em;
+}
+
+    a {
+        font-size: 1.7em;
+        margin: 0px 9px 0px 9px;
+        padding: 10px;
+    }
+
+    a:hover {
+        background-color: rgba(211, 55, 133, 0.3) ;
+    }
+
+
+}

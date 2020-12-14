@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Syne+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chau+Philomene+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
+
+body {
+    margin: 0px;
+    background-color: #0a0a0a;
+    color: rgb(235, 235, 235);
+    overflow-x: hidden;
+}
+
+header {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 10%;
+    background-image: url(../images/Cloth.jpg);
+}
+
+header img {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 50%;
+    height: 100%;
+}
+
+nav {
+    background-color: #22211f;
+    border-bottom: 2px solid #eb0a7a;
+}
+
+nav ul {
+    padding: 10px;
+    text-align: center;
+}
+
+h2 {
+    text-align: left;
+    color: #5efa8d;
+    margin: 0px;
+    font-size: 3em;
+    font-family: 'Chau Philomene One', sans-serif;
+}
+
+form {
+    width: 55%;
+    margin: auto;
+    font-family: 'Teko', sans-serif;
+    font-size: 1.8em;
+}
+
+div {
+    background-image: url(../images/workers.jpg);
+    background-size: cover;
+}
+
+article {
+    background-color: rgba(0,0,0,0.8);
+}
+
+footer {
+    margin: 0px;
+    width: 100%;
+    text-align: center;
+    border-top: 2px solid #eb0a7a; 
+    background-color: rgb(37, 35, 35);
+}
+
+a {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: .9em;
+    text-decoration: none;
+}
+
+a:link {
+    color: #eb0a7a;
+}
+a:visited {
+    color:#eb0a7a;
+}
+a:active {
+    color: #eb0a7a;
+}
+
+ul {
+    padding: 20px;
+    margin: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    list-style-type: none;   
+}
+ 
+li {
+    margin: 3px;
+    display: inline;
+}
+
+.mobile {
+    display: none;
+}
+
+#tree {
+    background-image: url(../images/rocks.jpg);
+    width: 400%;
+}
+
+@media all and (min-width: 768px) {
+
+    .mobile {
+        display: inline;
+    }
+
+    header img {
+        width: 20%;
+    }
+
+    h2 {
+        font-size: 5em;
+    }
+    
+    h3 {
+        font-size: 3em;
+    }
+
+    h4 {
+        font-size: 1.1em;
+        margin: 40px 8%;
+    }
+
+    table {
+        font-size: 2em;
+    }
+
+    a {
+        font-size: 1.7em;
+        margin: 0px 9px 0px 9px;
+        padding: 10px;
+    }
+
+    a:hover {
+        background-color: rgba(211, 55, 133, 0.3) ;
+    }
+
+    #emailbox {
+        size: 30;
+    }
+
+    #dunes {
+        height: 300; 
+        width: auto;
+    }
+
+    fieldset img {
+        float: right;
+    }
+}

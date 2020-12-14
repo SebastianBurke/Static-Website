@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Syne+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chau+Philomene+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
+
+body {
+    margin: 0px;
+    background-color: #0a0a0a;
+    color: rgb(235, 235, 235);
+}
+
+header {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 10%;
+    background-image: url(../images/Cloth.jpg);
+}
+
+header img {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 50%;
+    height: 100%;
+}
+
+nav {
+    background-color: #22211f;
+    border-bottom: 2px solid #eb0a7a;
+}
+
+nav ul {
+    padding: 10px;
+    text-align: center;
+}
+
+div {
+    background-image: url(../images/spaceseats.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    border-bottom: 2px solid #eb0a7a;
+}
+
+h2 {
+    text-align: left;
+    color: #5efa8d;
+    margin: 0px;
+    font-size: 4em;
+    font-family: 'Chau Philomene One', sans-serif;
+    padding-bottom: 400px;
+}
+
+article {
+    margin: 0;
+    background-image: url(../images/mountains.jpg);
+    background-size: cover;
+}
+
+section {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+h3 {
+    font-family: 'Teko', sans-serif;
+    font-size: 2em;
+    width: 75%;
+    margin: auto;
+}
+
+h4 {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 10px 40px;
+}
+
+table {
+    font-family: 'Teko', sans-serif;
+    font-size: 1.4em;
+    border-collapse: collapse;
+    width: 75%;
+    margin: auto;
+}
+
+th {
+    color: #5efa8d;
+}
+
+td {
+    border: 1px solid #eb0a7a;
+    border-collapse: collapse;
+    padding: 30px 15px;
+}
+
+footer {
+    margin: 0px;
+    width: 100%;
+    text-align: center;
+    border-top: 2px solid #eb0a7a; 
+    background-color: rgb(37, 35, 35);
+}
+
+a {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: .9em;
+    text-decoration: none;
+}
+
+a:link {
+    color: #eb0a7a;
+}
+a:visited {
+    color:#eb0a7a;
+}
+a:active {
+    color: #eb0a7a;
+}
+
+ul {
+    padding: 20px;
+    margin: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    list-style-type: none;   
+}
+ 
+li {
+    margin: 3px;
+    display: inline;
+}
+
+.mobile {
+    display: none;
+}
+
+@media all and (min-width: 768px) {
+
+    .mobile {
+        display: inline;
+    }
+
+    header img {
+        width: 20%;
+    }
+
+    h2 {
+        margin-left: 20px;
+        font-size: 7em;
+        padding-bottom: 400px;
+    }
+    
+    h3 {
+        font-size: 3em;
+    }
+
+    h4 {
+        font-size: 1.1em;
+        margin: 40px 8%;
+    }
+
+    table {
+        font-size: 2em;
+    }
+
+    h4 a {
+        font-size: 1em;
+        margin: 0px;
+    }
+
+    a {
+        font-size: 1.7em;
+        margin: 0px 9px 0px 9px;
+        padding: 10px;
+    }
+
+    a:hover {
+        background-color: rgba(211, 55, 133, 0.3) ;
+    }
+
+}

@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Syne+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chau+Philomene+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
+
+body {
+    margin: 0px;
+    background-color: #000000;
+    color: rgb(226, 226, 226);
+}
+
+header {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 10%;
+    background-image: url(../images/Cloth.jpg);
+}
+
+header img {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 50%;
+    height: 100%;
+}
+
+nav {
+    background-color: #22211f;
+    border-bottom: 2px solid #eb0a7a;
+}
+
+nav ul {
+    padding: 10px;
+    text-align: center;
+}
+
+div {
+    background-image: url(../images/Airport\ Lady.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-size: 5em;
+    text-align: left;
+    border-bottom: 3px solid #eb0a7a
+}
+
+h2 {
+    color: #5efa8d;
+    margin: 0px 20px;
+    padding: 50px 0px;
+    font-size: 0.7em;
+    font-family: 'Chau Philomene One', sans-serif;
+
+}
+
+h3 {
+    margin: 30px;
+    font-size: 3.3em;
+    font-family: 'Teko', sans-serif;
+}
+
+p {
+    margin: 0px 10%;
+    padding: 20px;
+    font-size: 1.3em;
+    font-family: 'Chivo', sans-serif;
+}
+
+section img {
+    margin: 5px;
+    width: 70%;
+    float: right;
+    border: 0px 0px 10px 10px solid #eb0a7a;
+}
+
+footer {
+    margin: 0px;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(37, 35, 35);
+    border-top: 2px solid #eb0a7a; 
+}
+
+
+main ul li{
+    display: inline-block;
+    font-size: 2em;
+    margin: 40px;
+    list-style-image: url(../images/SaturnAirlinesLogo.png);
+}
+
+a {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: .9em;
+    text-decoration: none;
+}
+
+section a {
+    font-size: 1.1em;
+}
+
+a:link {
+    color: #eb0a7a;
+}
+a:visited {
+    color:#eb0a7a;
+}
+a:active {
+    color: #eb0a7a;
+}
+
+ul {
+    padding: 20px;
+    margin: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    list-style-type: none;   
+}
+ 
+li {
+    margin: 3px;
+    display: inline;
+}
+
+
+.mobile {
+    display: none;
+}
+
+#bottomP {
+    background-image: url(../images/Earth.jpg);
+    background-size: cover;
+    margin: 0;
+}
+
+
+
+
+@media all and (min-width: 768px) {
+
+    .mobile {
+        display: inline;
+    }
+
+    header img {
+        width: 20%;
+    }
+
+    h2 {
+        font-size: 1.7em;
+        color: #5efa8d;
+        text-align: left;
+        margin: 0px 70% 0px 80px;
+    }
+
+    h3 {
+        font-size: 7em;
+        color: #eb0a7a
+    }
+    
+    p {
+        font-size: 2em;
+    }
+
+    nav a {
+        font-size: 1.7em;
+        margin: 0px 9px 0px 9px;
+        padding: 10px;
+    }
+
+    a {
+        padding: 5px;
+        margin: 5px;
+        font-size: 1.5em;
+    }
+
+    a:hover {
+        background-color: rgba(211, 55, 133, 0.3) ;
+    }
+
+    section {
+        background-image: url(../images/Earth.jpg);
+        background-size: cover;
+        margin: 0;
+    }
+
+    article {
+        background-color: rgba(0,0,0,0.5);
+    }
+
+    #bottomP {
+        padding: 50px 15% 200px 15%;
+        background-image: none;
+    }
+ 
+}
